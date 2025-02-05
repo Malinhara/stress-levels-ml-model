@@ -1,9 +1,11 @@
-1 step - python -m venv venv
+1 step - git clone https://github.com/Malinhara/stress-levels-ml-model.git
 
-2 step - .\venv\Scripts\activate (windows)
+2 step - python -m venv venv
 
-3 step - pip install -r requirements.txt
+3 step - .\venv\Scripts\activate (windows)
 
-4 step - uvicorn main:app --reload   and refer Exaplanation file
+4 step - pip install -r requirements.txt
+
+5 step - uvicorn main:app --reload   and refer Exaplanation file
 
 
