@@ -12,7 +12,7 @@ blood_pressure (1=Low, 2=Normal, 3=High): Categorizes blood pressure.
 
 sleep_quality (1-5): Ranges from very poor (1) to very good (5) sleep quality.
 
-breathing_problem, noise_level, living_conditions, safety, basic_needs, academic_performance, study_load, teacher_student_relationship, 
+breathing_problem, noise_level, living_conditions, safety, basic_needs, headache, academic_performance, study_load, teacher_student_relationship, 
 future_career_concerns, social_support, peer_pressure, extracurricular_activities, bullying (1-5): Measures various aspects, from very 
 poor (1) to very good (5).
 
@@ -25,6 +25,7 @@ below on test json ( add to request body in postman or end point test tool)
       "self_esteem": 80,
       "mental_health_history": 1,
       "depression": 45,
+      "headache":"3",
       "blood_pressure": 1,
       "sleep_quality": 2,
       "breathing_problem": 3,
